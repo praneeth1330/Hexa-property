@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+	background-color: #fc8220;
+	color: white;
+	padding: 10px 12px;
+	border: 2px solid transparent;
+}
+.btn:hover {
+	border: 2px solid black;
+	background: transparent;
+	color: black;
+	transition-duration: 1s;
+	padding: auto;
+}
+
+.focus:hover .focusp {
+	color: #fc8220;
+}
+.active {
+	color: #fc8220;
+}
+
+.change:hover i {
+	color: white;
+}
+.dot h1:hover {
+	color: #fc8220;
+}
